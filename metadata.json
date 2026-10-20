@@ -1,0 +1,11 @@
+{
+  "name": "Remix WildSanctuaries - Global Wildlife Conservation Network",
+  "description": "Global directory and field operations platform for wild animal sanctuaries, active species conservation, volunteer task dispatch, and offline field incident reporting.",
+  "requestFramePermissions": [
+    "geolocation",
+    "notifications"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
