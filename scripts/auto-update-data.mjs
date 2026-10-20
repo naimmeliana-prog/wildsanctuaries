@@ -58,7 +58,7 @@ const VERIFIED_DISCOVERY_QUEUE = [
     iucnStatus: 'Endangered',
     description: 'Pionero mundial en la liberación en selva salvaje ("Triángulo de Conkouati") de chimpancés rescatados y rehabilitados en islas de manglar y bosque ecuatorial en la costa de la República del Congo.',
     interventionAreaHectares: 504950,
-    websiteUrl: 'https://www.help-congo.com/',
+    websiteUrl: 'https://en.wikipedia.org/wiki/Conkouati-Douli_National_Park',
     contactPhone: '+242 06 664 12 88',
     emergencyRadioChannel: 'Canal Conkouati-Douli Eco-Guards VHF'
   },
@@ -282,6 +282,21 @@ async function queryWikidataSanctuaries(existingIds, existingNames) {
       const websiteUrl = row.website?.value || '';
       const imageUrl = row.image?.value || '';
       if (!imageUrl || !websiteUrl) continue;
+
+      // Verificar en vivo que la dirección web responde correctamente (HTTP 200-399) antes de aceptarla
+      try {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 5000);
+        const checkRes = await fetch(websiteUrl, {
+          method: 'GET',
+          signal: controller.signal,
+          headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' }
+        });
+        clearTimeout(timeout);
+        if (checkRes.status >= 400) continue;
+      } catch {
+        continue;
+      }
 
       let continent = 'Americas';
       if (lat > 35 && lng > -15 && lng < 55) continent = 'Europe';

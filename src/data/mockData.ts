@@ -464,7 +464,7 @@ export const mockSanctuaries: Sanctuary[] = [
     verifiedOfficial: true,
     contactPhone: '+506 2682 0498',
     emergencyRadioChannel: 'Canal Marino 16 VHF / 09 Guardacostas',
-    websiteUrl: 'https://www.sinac.go.cr/'
+    websiteUrl: 'https://conserveturtles.org/'
   },
   {
     id: 'sanc-lynx',
@@ -708,7 +708,7 @@ export const mockSanctuaries: Sanctuary[] = [
     verifiedOfficial: true,
     contactPhone: '+62 725 44221',
     emergencyRadioChannel: 'Canal Táctico Guardaparques Way Kambas RPU-1',
-    websiteUrl: 'https://rhinos.org/where-we-work/sumatran-rhino-sanctuary/'
+    websiteUrl: 'https://rhinos.org/'
   },
   {
     id: 'sanc-tasikoki',
@@ -819,7 +819,7 @@ export const mockSanctuaries: Sanctuary[] = [
     verifiedOfficial: true,
     contactPhone: '+62 542 721200',
     emergencyRadioChannel: 'Canal BOSF Samboja 157.250',
-    websiteUrl: 'https://www.orangutan.or.id/samboja-lestari'
+    websiteUrl: 'https://orangutan.or.id/'
   },
   {
     id: 'sanc-chiangmai',
@@ -1078,7 +1078,7 @@ export const mockSanctuaries: Sanctuary[] = [
     verifiedOfficial: true,
     contactPhone: '+593 98 721 4432',
     emergencyRadioChannel: 'Canal Fluvial Pastaza VHF 16',
-    websiteUrl: 'https://raru.org/'
+    websiteUrl: 'https://amazonforever.org/'
   },
   {
     id: 'sanc-amur-leopard',
@@ -1300,7 +1300,7 @@ export const mockSanctuaries: Sanctuary[] = [
     verifiedOfficial: true,
     contactPhone: '+47 77 17 99 00',
     emergencyRadioChannel: 'Canal Emergencias Bardu VHF 142.100',
-    websiteUrl: 'https://polarpark.no/'
+    websiteUrl: 'https://en.wikipedia.org/wiki/Polar_Park'
   },
   {
     id: 'sanc-svalbard-polar',
@@ -1781,7 +1781,7 @@ export const mockSanctuaries: Sanctuary[] = [
     verifiedOfficial: true,
     contactPhone: '+62 385 41006',
     emergencyRadioChannel: 'Canal Guardaparques Komodo VHF 16 Marine',
-    websiteUrl: 'https://komododragon.org/'
+    websiteUrl: 'https://en.wikipedia.org/wiki/Komodo_National_Park'
   },
   {
     id: 'sanc-bali-sea-turtle',
@@ -1855,7 +1855,7 @@ export const mockSanctuaries: Sanctuary[] = [
     verifiedOfficial: true,
     contactPhone: '+7 41531 7 16 50',
     emergencyRadioChannel: 'Canal Kamchatka Kronotsky Satélite HF 6.880',
-    websiteUrl: 'https://kronoki.ru/en/'
+    websiteUrl: 'https://kronoki.ru/'
   },
   {
     id: 'sanc-belovezhskaya-belarus',
@@ -2299,7 +2299,7 @@ export const mockSanctuaries: Sanctuary[] = [
     verifiedOfficial: true,
     contactPhone: '+299 36 12 00',
     emergencyRadioChannel: 'Canal Nuuk Coast Guard VHF 16',
-    websiteUrl: 'https://natur.gl/'
+    websiteUrl: 'https://visitgreenland.com/'
   },
   {
     id: 'sanc-bear-prishtina-kosovo',
@@ -2558,7 +2558,7 @@ export const mockSanctuaries: Sanctuary[] = [
     verifiedOfficial: true,
     contactPhone: '+61 8 8965 0001',
     emergencyRadioChannel: 'Canal Outback Flying Doctor / UHF 22',
-    websiteUrl: 'https://kangaroosanctuary.com/'
+    websiteUrl: 'https://northernterritory.com/'
   },
   {
     id: 'sanc-phillip-island-australia',
@@ -2817,7 +2817,7 @@ export const mockSanctuaries: Sanctuary[] = [
     verifiedOfficial: true,
     contactPhone: '+261 20 22 415 00',
     emergencyRadioChannel: 'Canal Madagascar National Parks VHF 154.900',
-    websiteUrl: 'https://www.parcs-madagascar.com/'
+    websiteUrl: 'https://en.wikipedia.org/wiki/Andasibe-Mantadia_National_Park'
   },
   {
     id: 'sanc-taricaya-peru',
@@ -3039,7 +3039,7 @@ export const mockSanctuaries: Sanctuary[] = [
     verifiedOfficial: true,
     contactPhone: '+354 488 2700',
     emergencyRadioChannel: 'Canal Vestmannaeyjar Coast Guard VHF 16',
-    websiteUrl: 'https://www.belugasanctuary.sealifetrust.org/'
+    websiteUrl: 'https://belugasanctuary.sealifetrust.org/'
   },
   {
     id: 'sanc-cairngorms-scotland',
@@ -3224,7 +3224,7 @@ export const mockSanctuaries: Sanctuary[] = [
     verifiedOfficial: true,
     contactPhone: '+216 76 224 815',
     emergencyRadioChannel: 'Canal Direction Générale des Forêts Tunisie VHF',
-    websiteUrl: 'https://saharaconservation.org/tunisia/'
+    websiteUrl: 'https://saharaconservation.org/'
   },
   {
     id: 'sanc-wadi-el-gemal-egypt',
@@ -3409,7 +3409,7 @@ export const mockSanctuaries: Sanctuary[] = [
     verifiedOfficial: true,
     contactPhone: '+237 233 33 20 62',
     emergencyRadioChannel: 'Canal MINFOF Cameroon Wildlife VHF 152.600',
-    websiteUrl: 'https://limbewildlifecentre.org/'
+    websiteUrl: 'https://ida-africa.org/'
   },
   {
     id: 'sanc-ouadi-rime-chad',
@@ -3631,7 +3631,7 @@ export const mockSanctuaries: Sanctuary[] = [
     verifiedOfficial: true,
     contactPhone: '+7 81533 9-32-50',
     emergencyRadioChannel: 'Canal Kandalaksha Marine Reserve VHF 16',
-    websiteUrl: 'https://kandalaksha-reserve.ru/'
+    websiteUrl: 'https://en.wikipedia.org/wiki/Kandalaksha_Nature_Reserve'
   },
   {
     id: 'sanc-churchill-hudson-canada',
@@ -3816,7 +3816,7 @@ export const mockSanctuaries: Sanctuary[] = [
     verifiedOfficial: true,
     contactPhone: '+299 97 10 88',
     emergencyRadioChannel: 'Canal Qaanaaq Arctic Coastal Radio VHF 16',
-    websiteUrl: 'https://www.pikialasorsuaq.org/'
+    websiteUrl: 'https://en.wikipedia.org/wiki/North_Water_Polynya'
   },
   {
     id: 'sanc-aasivissuit-kangerlussuaq-greenland',
@@ -3853,7 +3853,7 @@ export const mockSanctuaries: Sanctuary[] = [
     verifiedOfficial: true,
     contactPhone: '+299 84 11 02',
     emergencyRadioChannel: 'Canal Kangerlussuaq Science Operations VHF',
-    websiteUrl: 'https://natur.gl/'
+    websiteUrl: 'https://visitgreenland.com/'
   },
   {
     id: 'sanc-ahaggar-cheetah-algeria',
@@ -3927,7 +3927,7 @@ export const mockSanctuaries: Sanctuary[] = [
     verifiedOfficial: true,
     contactPhone: '+213 25 43 11 85',
     emergencyRadioChannel: 'Canal Direction Générale des Forêts Algérie Chréa VHF',
-    websiteUrl: 'https://barbarymacaque.org/'
+    websiteUrl: 'https://en.wikipedia.org/wiki/Chr%C3%A9a_National_Park'
   },
   {
     id: 'sanc-el-kala-algeria',
@@ -3964,7 +3964,7 @@ export const mockSanctuaries: Sanctuary[] = [
     verifiedOfficial: true,
     contactPhone: '+213 38 66 14 20',
     emergencyRadioChannel: 'Canal Parc National d’El Kala VHF 156.400',
-    websiteUrl: 'https://en.unesco.org/biosphere/arab-states/el-kala'
+    websiteUrl: 'https://en.wikipedia.org/wiki/El_Kala_National_Park'
   },
   {
     id: 'sanc-niokolo-koba-senegal',
