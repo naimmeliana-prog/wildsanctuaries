@@ -118,6 +118,17 @@ export const SanctuaryDetail: React.FC<SanctuaryDetailProps> = ({
               <Radio className="w-3.5 h-3.5" />
               {sanctuary.emergencyRadioChannel}
             </span>
+            {sanctuary.websiteUrl && (
+              <a
+                href={sanctuary.websiteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1 font-mono text-amber-300 hover:text-amber-200 underline underline-offset-2"
+              >
+                <ExternalLink className="w-3.5 h-3.5" />
+                <span>{sanctuary.websiteUrl}</span>
+              </a>
+            )}
           </div>
         </div>
       </div>
@@ -265,8 +276,19 @@ export const SanctuaryDetail: React.FC<SanctuaryDetailProps> = ({
             </div>
           </div>
 
-          {/* Action to View on Google Maps */}
-          <div className="flex items-center gap-4 pt-2">
+          {/* Action to View Official Website & Google Maps */}
+          <div className="flex flex-wrap items-center gap-3 pt-2">
+            {sanctuary.websiteUrl && (
+              <a
+                href={sanctuary.websiteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 py-2.5 px-4 text-xs font-semibold bg-emerald-700 hover:bg-emerald-800 text-white transition-colors"
+              >
+                <ExternalLink className="w-3.5 h-3.5" />
+                <span>{language === 'es' ? 'Sitio Web Oficial:' : 'Official Website:'} {sanctuary.websiteUrl.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')}</span>
+              </a>
+            )}
             <a
               href={`https://www.google.com/maps/search/?api=1&query=${sanctuary.lat},${sanctuary.lng}`}
               target="_blank"

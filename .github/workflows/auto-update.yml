@@ -1,4 +1,4 @@
-name: Auto-Actualización Autónoma de Santuarios (Cada 3 Días)
+name: Auto-Actualización Autónoma de Santuarios, Liberaciones e Incidentes (Cada 3 Días)
 
 on:
   schedule:
@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Ejecutar motor de actualización de misiones, calendario y telemetría
+      - name: Descubrir nuevos santuarios, historias de liberación y actualizar reportes
         run: node scripts/auto-update-data.mjs
 
       - name: Guardar cambios y activar redespliegue automático en Vercel
@@ -34,6 +34,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No hay cambios pendientes."
           else
-            git commit -m "chore(auto-sync): actualización automática de misiones, calendario y telemetría ($(date -u +'%Y-%m-%d'))"
+            git commit -m "chore(auto-sync): nuevos santuarios, historias de liberación y telemetría ($(date -u +'%Y-%m-%d'))"
             git push
           fi

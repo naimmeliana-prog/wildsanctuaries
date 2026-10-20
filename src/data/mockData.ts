@@ -352,7 +352,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 88,
     verifiedOfficial: true,
     contactPhone: '+254 712 908123',
-    emergencyRadioChannel: 'Canal 4 VHF (156.200 MHz)'
+    emergencyRadioChannel: 'Canal 4 VHF (156.200 MHz)',
+    websiteUrl: 'https://www.sheldrickwildlifetrust.org/'
   },
   {
     id: 'sanc-sepilok',
@@ -388,7 +389,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 82,
     verifiedOfficial: true,
     contactPhone: '+60 89 531180',
-    emergencyRadioChannel: 'Canal 7 VHF (154.850 MHz)'
+    emergencyRadioChannel: 'Canal 7 VHF (154.850 MHz)',
+    websiteUrl: 'https://www.orangutan-appeal.org.uk/'
   },
   {
     id: 'sanc-snowleopard',
@@ -424,7 +426,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 94,
     verifiedOfficial: true,
     contactPhone: '+91 1982 252901',
-    emergencyRadioChannel: 'Canal 12 HF / Satélite Garmin InReach'
+    emergencyRadioChannel: 'Canal 12 HF / Satélite Garmin InReach',
+    websiteUrl: 'https://snowleopard.org/'
   },
   {
     id: 'sanc-ostional',
@@ -460,7 +463,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 91,
     verifiedOfficial: true,
     contactPhone: '+506 2682 0498',
-    emergencyRadioChannel: 'Canal Marino 16 VHF / 09 Guardacostas'
+    emergencyRadioChannel: 'Canal Marino 16 VHF / 09 Guardacostas',
+    websiteUrl: 'https://www.sinac.go.cr/'
   },
   {
     id: 'sanc-lynx',
@@ -496,7 +500,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 92,
     verifiedOfficial: true,
     contactPhone: '+34 953 540 221',
-    emergencyRadioChannel: 'Canal Emergencias Medio Ambiente 152.400'
+    emergencyRadioChannel: 'Canal Emergencias Medio Ambiente 152.400',
+    websiteUrl: 'https://www.lynxexsitu.es/'
   },
   {
     id: 'sanc-virunga',
@@ -532,7 +537,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 86,
     verifiedOfficial: true,
     contactPhone: '+243 997 458 901',
-    emergencyRadioChannel: 'Canal Militar/Guardaparques Virunga T-1'
+    emergencyRadioChannel: 'Canal Militar/Guardaparques Virunga T-1',
+    websiteUrl: 'https://virunga.org/'
   },
   {
     id: 'sanc-pantanal',
@@ -579,7 +585,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 89,
     verifiedOfficial: true,
     contactPhone: '+55 65 3624 8190',
-    emergencyRadioChannel: 'Canal 8 Pantanal Fluvial (156.400)'
+    emergencyRadioChannel: 'Canal 8 Pantanal Fluvial (156.400)',
+    websiteUrl: 'https://oncafari.org/'
   },
   {
     id: 'sanc-carpathian',
@@ -626,7 +633,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 85,
     verifiedOfficial: true,
     contactPhone: '+40 268 471 200',
-    emergencyRadioChannel: 'Canal Salvamont Brașov 160.100'
+    emergencyRadioChannel: 'Canal Salvamont Brașov 160.100',
+    websiteUrl: 'https://millionsoffriends.org/en/libearty/'
   },
   {
     id: 'sanc-nyaru-menteng',
@@ -662,7 +670,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 87,
     verifiedOfficial: true,
     contactPhone: '+62 536 322 8110',
-    emergencyRadioChannel: 'Canal BOSF Central VHF 158.425'
+    emergencyRadioChannel: 'Canal BOSF Central VHF 158.425',
+    websiteUrl: 'https://orangutan.or.id/'
   },
   {
     id: 'sanc-way-kambas-srs',
@@ -698,7 +707,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 95,
     verifiedOfficial: true,
     contactPhone: '+62 725 44221',
-    emergencyRadioChannel: 'Canal Táctico Guardaparques Way Kambas RPU-1'
+    emergencyRadioChannel: 'Canal Táctico Guardaparques Way Kambas RPU-1',
+    websiteUrl: 'https://rhinos.org/where-we-work/sumatran-rhino-sanctuary/'
   },
   {
     id: 'sanc-tasikoki',
@@ -734,7 +744,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 81,
     verifiedOfficial: true,
     contactPhone: '+62 438 31220',
-    emergencyRadioChannel: 'Canal 6 VHF Marino Bitung'
+    emergencyRadioChannel: 'Canal 6 VHF Marino Bitung',
+    websiteUrl: 'https://www.tasikoki.org/'
   },
   {
     id: 'sanc-cikananga',
@@ -770,7 +781,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 88,
     verifiedOfficial: true,
     contactPhone: '+62 266 226190',
-    emergencyRadioChannel: 'Canal Guardabosques Java Occidental 151.300'
+    emergencyRadioChannel: 'Canal Guardabosques Java Occidental 151.300',
+    websiteUrl: 'https://www.cikanangawildlifecenter.com/'
   },
   {
     id: 'sanc-samboja',
@@ -806,7 +818,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 84,
     verifiedOfficial: true,
     contactPhone: '+62 542 721200',
-    emergencyRadioChannel: 'Canal BOSF Samboja 157.250'
+    emergencyRadioChannel: 'Canal BOSF Samboja 157.250',
+    websiteUrl: 'https://www.orangutan.or.id/samboja-lestari'
   },
   {
     id: 'sanc-chiangmai',
@@ -842,7 +855,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 90,
     verifiedOfficial: true,
     contactPhone: '+66 53 272 855',
-    emergencyRadioChannel: 'Canal Parque Mae Taeng VHF 159.200'
+    emergencyRadioChannel: 'Canal Parque Mae Taeng VHF 159.200',
+    websiteUrl: 'https://www.elephantnaturepark.org/'
   },
   {
     id: 'sanc-ccf-namibia',
@@ -878,7 +892,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 92,
     verifiedOfficial: true,
     contactPhone: '+264 67 306 225',
-    emergencyRadioChannel: 'Canal VHF Waterberg Cheetah 148.500'
+    emergencyRadioChannel: 'Canal VHF Waterberg Cheetah 148.500',
+    websiteUrl: 'https://cheetah.org/'
   },
   {
     id: 'sanc-kaziranga',
@@ -914,7 +929,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 86,
     verifiedOfficial: true,
     contactPhone: '+91 3776 268 007',
-    emergencyRadioChannel: 'Canal Kaziranga Forest Guard T-3'
+    emergencyRadioChannel: 'Canal Kaziranga Forest Guard T-3',
+    websiteUrl: 'https://www.wti.org.in/'
   },
   {
     id: 'sanc-kangaroo-island',
@@ -950,7 +966,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 89,
     verifiedOfficial: true,
     contactPhone: '+61 8 8553 4444',
-    emergencyRadioChannel: 'Canal Marino 73 VHF South Australia'
+    emergencyRadioChannel: 'Canal Marino 73 VHF South Australia',
+    websiteUrl: 'https://kiwildlifenetwork.com/'
   },
   {
     id: 'sanc-wild-animal-colorado',
@@ -986,7 +1003,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 93,
     verifiedOfficial: true,
     contactPhone: '+1 303 536 0118',
-    emergencyRadioChannel: 'Canal Seguridad Keenesburg 462.575 MHz'
+    emergencyRadioChannel: 'Canal Seguridad Keenesburg 462.575 MHz',
+    websiteUrl: 'https://www.wildanimalsanctuary.org/'
   },
   {
     id: 'sanc-tam-dao-vietnam',
@@ -1022,7 +1040,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 91,
     verifiedOfficial: true,
     contactPhone: '+84 211 385 3030',
-    emergencyRadioChannel: 'Canal Parque Tam Dao 154.600'
+    emergencyRadioChannel: 'Canal Parque Tam Dao 154.600',
+    websiteUrl: 'https://www.animalsasia.org/'
   },
   {
     id: 'sanc-los-yapas-amazon',
@@ -1058,7 +1077,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 88,
     verifiedOfficial: true,
     contactPhone: '+593 98 721 4432',
-    emergencyRadioChannel: 'Canal Fluvial Pastaza VHF 16'
+    emergencyRadioChannel: 'Canal Fluvial Pastaza VHF 16',
+    websiteUrl: 'https://raru.org/'
   },
   {
     id: 'sanc-amur-leopard',
@@ -1094,7 +1114,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 94,
     verifiedOfficial: true,
     contactPhone: '+7 423 240 70 80',
-    emergencyRadioChannel: 'Canal VHF Taiga Leopard 164.225 MHz'
+    emergencyRadioChannel: 'Canal VHF Taiga Leopard 164.225 MHz',
+    websiteUrl: 'https://leopard-land.ru/'
   },
   {
     id: 'sanc-baikal-seal',
@@ -1130,7 +1151,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 91,
     verifiedOfficial: true,
     contactPhone: '+7 3952 42 54 10',
-    emergencyRadioChannel: 'Canal Baikal Rescue 156.800 (Canal 16 Marino)'
+    emergencyRadioChannel: 'Canal Baikal Rescue 156.800 (Canal 16 Marino)',
+    websiteUrl: 'https://baikalzapovednik.ru/'
   },
   {
     id: 'sanc-altyn-dala',
@@ -1166,7 +1188,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 96,
     verifiedOfficial: true,
     contactPhone: '+7 7172 97 82 40',
-    emergencyRadioChannel: 'Canal Estepa Kazajistán VHF 153.250'
+    emergencyRadioChannel: 'Canal Estepa Kazajistán VHF 153.250',
+    websiteUrl: 'https://altyndala.org/'
   },
   {
     id: 'sanc-tian-shan',
@@ -1202,7 +1225,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 89,
     verifiedOfficial: true,
     contactPhone: '+996 312 66 11 80',
-    emergencyRadioChannel: 'Canal Gruppa Bars HF 7.150 MHz'
+    emergencyRadioChannel: 'Canal Gruppa Bars HF 7.150 MHz',
+    websiteUrl: 'https://en.nabu.de/topics/species-conservation/snow-leopard/'
   },
   {
     id: 'sanc-zackenberg-greenland',
@@ -1238,7 +1262,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 97,
     verifiedOfficial: true,
     contactPhone: '+299 94 40 00',
-    emergencyRadioChannel: 'Canal Iridium Satélite / Canal Marino 16 Ártico'
+    emergencyRadioChannel: 'Canal Iridium Satélite / Canal Marino 16 Ártico',
+    websiteUrl: 'https://g-e-m.dk/gem-localities/zackenberg/'
   },
   {
     id: 'sanc-polar-park-norway',
@@ -1274,7 +1299,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 91,
     verifiedOfficial: true,
     contactPhone: '+47 77 17 99 00',
-    emergencyRadioChannel: 'Canal Emergencias Bardu VHF 142.100'
+    emergencyRadioChannel: 'Canal Emergencias Bardu VHF 142.100',
+    websiteUrl: 'https://polarpark.no/'
   },
   {
     id: 'sanc-svalbard-polar',
@@ -1310,7 +1336,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 95,
     verifiedOfficial: true,
     contactPhone: '+47 79 02 43 00',
-    emergencyRadioChannel: 'Canal Sysselmesteren Svalbard VHF 16'
+    emergencyRadioChannel: 'Canal Sysselmesteren Svalbard VHF 16',
+    websiteUrl: 'https://www.npolar.no/en/'
   },
   {
     id: 'sanc-ranua-finland',
@@ -1346,7 +1373,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 88,
     verifiedOfficial: true,
     contactPhone: '+358 16 355 1921',
-    emergencyRadioChannel: 'Canal Lapland Forest Guard 155.850'
+    emergencyRadioChannel: 'Canal Lapland Forest Guard 155.850',
+    websiteUrl: 'https://ranuaresort.com/en/wildlife-park/'
   },
   {
     id: 'sanc-gronasen-sweden',
@@ -1382,7 +1410,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 92,
     verifiedOfficial: true,
     contactPhone: '+46 478 502 00',
-    emergencyRadioChannel: 'Canal Småland Skogsvårdsstyrelsen 146.400'
+    emergencyRadioChannel: 'Canal Småland Skogsvårdsstyrelsen 146.400',
+    websiteUrl: 'https://www.gronasen.se/'
   },
   {
     id: 'sanc-bialowieza-poland',
@@ -1418,7 +1447,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 93,
     verifiedOfficial: true,
     contactPhone: '+48 85 682 97 00',
-    emergencyRadioChannel: 'Canal Guardabosques Białowieża 154.200'
+    emergencyRadioChannel: 'Canal Guardabosques Białowieża 154.200',
+    websiteUrl: 'https://bpn.com.pl/'
   },
   {
     id: 'sanc-painted-dog-zimbabwe',
@@ -1454,7 +1484,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 89,
     verifiedOfficial: true,
     contactPhone: '+263 77 289 4480',
-    emergencyRadioChannel: 'Canal Hwange Anti-Poaching VHF 152.050'
+    emergencyRadioChannel: 'Canal Hwange Anti-Poaching VHF 152.050',
+    websiteUrl: 'https://www.painteddog.org/'
   },
   {
     id: 'sanc-khama-rhino-botswana',
@@ -1490,7 +1521,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 94,
     verifiedOfficial: true,
     contactPhone: '+267 433 0713',
-    emergencyRadioChannel: 'Canal Militar Kalahari Rhino VHF 161.400'
+    emergencyRadioChannel: 'Canal Militar Kalahari Rhino VHF 161.400',
+    websiteUrl: 'https://www.khamarhinosanctuary.org.bw/'
   },
   {
     id: 'sanc-ibera-argentina',
@@ -1526,7 +1558,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 96,
     verifiedOfficial: true,
     contactPhone: '+54 379 443 0088',
-    emergencyRadioChannel: 'Canal Guardaparques Iberá VHF 155.050'
+    emergencyRadioChannel: 'Canal Guardaparques Iberá VHF 155.050',
+    websiteUrl: 'https://rewildingargentina.org/'
   },
   {
     id: 'sanc-northern-lights-canada',
@@ -1562,7 +1595,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 92,
     verifiedOfficial: true,
     contactPhone: '+1 250 847 5101',
-    emergencyRadioChannel: 'Canal BC Conservation Officer Service VHF'
+    emergencyRadioChannel: 'Canal BC Conservation Officer Service VHF',
+    websiteUrl: 'https://www.wildlifeshelter.com/'
   },
   {
     id: 'sanc-patagonia-huemul',
@@ -1598,7 +1632,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 94,
     verifiedOfficial: true,
     contactPhone: '+56 67 245 1200',
-    emergencyRadioChannel: 'Canal CONAF Guardaparques Aysén VHF 154.100'
+    emergencyRadioChannel: 'Canal CONAF Guardaparques Aysén VHF 154.100',
+    websiteUrl: 'https://www.rewildingchile.org/'
   },
   {
     id: 'sanc-lobo-mexicano',
@@ -1634,7 +1669,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 91,
     verifiedOfficial: true,
     contactPhone: '+52 636 694 0212',
-    emergencyRadioChannel: 'Canal CONANP Reserva Janos VHF 159.450'
+    emergencyRadioChannel: 'Canal CONANP Reserva Janos VHF 159.450',
+    websiteUrl: 'https://www.gob.mx/conanp'
   },
   {
     id: 'sanc-ofi-camp-leakey',
@@ -1670,7 +1706,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 93,
     verifiedOfficial: true,
     contactPhone: '+62 532 21429',
-    emergencyRadioChannel: 'Canal Tanjung Puting Ranger Net VHF 157.800'
+    emergencyRadioChannel: 'Canal Tanjung Puting Ranger Net VHF 157.800',
+    websiteUrl: 'https://orangutan.org/'
   },
   {
     id: 'sanc-socp-sumatra',
@@ -1706,7 +1743,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 91,
     verifiedOfficial: true,
     contactPhone: '+62 61 821 1761',
-    emergencyRadioChannel: 'Canal SOCP Jantho VHF 158.125'
+    emergencyRadioChannel: 'Canal SOCP Jantho VHF 158.125',
+    websiteUrl: 'https://www.sumatranorangutan.org/'
   },
   {
     id: 'sanc-komodo-survival',
@@ -1742,7 +1780,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 95,
     verifiedOfficial: true,
     contactPhone: '+62 385 41006',
-    emergencyRadioChannel: 'Canal Guardaparques Komodo VHF 16 Marine'
+    emergencyRadioChannel: 'Canal Guardaparques Komodo VHF 16 Marine',
+    websiteUrl: 'https://komododragon.org/'
   },
   {
     id: 'sanc-bali-sea-turtle',
@@ -1778,7 +1817,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 94,
     verifiedOfficial: true,
     contactPhone: '+62 361 897 1850',
-    emergencyRadioChannel: 'Canal Marino Serangan Rescue VHF 08'
+    emergencyRadioChannel: 'Canal Marino Serangan Rescue VHF 08',
+    websiteUrl: 'https://www.baliseaturtle.org/'
   },
   {
     id: 'sanc-kamchatka-kronotsky',
@@ -1814,7 +1854,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 96,
     verifiedOfficial: true,
     contactPhone: '+7 41531 7 16 50',
-    emergencyRadioChannel: 'Canal Kamchatka Kronotsky Satélite HF 6.880'
+    emergencyRadioChannel: 'Canal Kamchatka Kronotsky Satélite HF 6.880',
+    websiteUrl: 'https://kronoki.ru/en/'
   },
   {
     id: 'sanc-belovezhskaya-belarus',
@@ -1850,7 +1891,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 92,
     verifiedOfficial: true,
     contactPhone: '+375 1631 56 398',
-    emergencyRadioChannel: 'Canal Brest Forest Radio 148.800 MHz'
+    emergencyRadioChannel: 'Canal Brest Forest Radio 148.800 MHz',
+    websiteUrl: 'https://npbp.by/'
   },
   {
     id: 'sanc-badhyz-turkmenistan',
@@ -1886,7 +1928,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 90,
     verifiedOfficial: true,
     contactPhone: '+993 12 39 85 41',
-    emergencyRadioChannel: 'Canal Badhyz Border Radio HF 5.120 MHz'
+    emergencyRadioChannel: 'Canal Badhyz Border Radio HF 5.120 MHz',
+    websiteUrl: 'https://whc.unesco.org/en/list/1693/'
   },
   {
     id: 'sanc-care-for-wild-rhino',
@@ -1922,7 +1965,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 96,
     verifiedOfficial: true,
     contactPhone: '+27 13 590 5231',
-    emergencyRadioChannel: 'Canal Táctico K9 Rhino Mpumalanga 162.300'
+    emergencyRadioChannel: 'Canal Táctico K9 Rhino Mpumalanga 162.300',
+    websiteUrl: 'https://careforwild.co.za/'
   },
   {
     id: 'sanc-chimfunshi-zambia',
@@ -1958,7 +2002,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 92,
     verifiedOfficial: true,
     contactPhone: '+260 212 311 200',
-    emergencyRadioChannel: 'Canal Copperbelt Wildlife Radio VHF 154.650'
+    emergencyRadioChannel: 'Canal Copperbelt Wildlife Radio VHF 154.650',
+    websiteUrl: 'https://chimfunshiwildlife.org/'
   },
   {
     id: 'sanc-lilongwe-malawi',
@@ -1994,7 +2039,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 88,
     verifiedOfficial: true,
     contactPhone: '+265 999 966 690',
-    emergencyRadioChannel: 'Canal Parques Nacionales Malawi VHF 152.800'
+    emergencyRadioChannel: 'Canal Parques Nacionales Malawi VHF 152.800',
+    websiteUrl: 'https://www.lilongwewildlife.org/'
   },
   {
     id: 'sanc-ol-pejeta-kenya',
@@ -2030,7 +2076,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 95,
     verifiedOfficial: true,
     contactPhone: '+254 707 187 141',
-    emergencyRadioChannel: 'Canal Ol Pejeta Tactical 151.775 MHz'
+    emergencyRadioChannel: 'Canal Ol Pejeta Tactical 151.775 MHz',
+    websiteUrl: 'https://www.olpejetaconservancy.org/'
   },
   {
     id: 'sanc-jaguar-rescue-cr',
@@ -2066,7 +2113,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 91,
     verifiedOfficial: true,
     contactPhone: '+506 2750 0706',
-    emergencyRadioChannel: 'Canal SINAC Caribe Sur VHF 155.200'
+    emergencyRadioChannel: 'Canal SINAC Caribe Sur VHF 155.200',
+    websiteUrl: 'https://www.jaguarrescue.foundation/'
   },
   {
     id: 'sanc-ciwy-machia-bolivia',
@@ -2102,7 +2150,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 87,
     verifiedOfficial: true,
     contactPhone: '+591 4 411 4112',
-    emergencyRadioChannel: 'Canal CIWY Radio Selva VHF 146.520'
+    emergencyRadioChannel: 'Canal CIWY Radio Selva VHF 146.520',
+    websiteUrl: 'https://www.intiwarayassi.org/'
   },
   {
     id: 'sanc-oncafari-pantanal',
@@ -2138,7 +2187,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 97,
     verifiedOfficial: true,
     contactPhone: '+55 11 3078 6844',
-    emergencyRadioChannel: 'Canal Pantanal Onçafari VHF 158.400'
+    emergencyRadioChannel: 'Canal Pantanal Onçafari VHF 158.400',
+    websiteUrl: 'https://oncafari.org/'
   },
   {
     id: 'sanc-marine-mammal-center',
@@ -2174,7 +2224,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 89,
     verifiedOfficial: true,
     contactPhone: '+1 415 289 7325',
-    emergencyRadioChannel: 'Canal US Coast Guard 16 VHF / Marine Mammal Rescue Net'
+    emergencyRadioChannel: 'Canal US Coast Guard 16 VHF / Marine Mammal Rescue Net',
+    websiteUrl: 'https://www.marinemammalcenter.org/'
   },
   {
     id: 'sanc-jarvzoo-sweden',
@@ -2210,7 +2261,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 91,
     verifiedOfficial: true,
     contactPhone: '+46 651 411 25',
-    emergencyRadioChannel: 'Canal Hälsingland Forest Guard 145.200'
+    emergencyRadioChannel: 'Canal Hälsingland Forest Guard 145.200',
+    websiteUrl: 'https://jarvzoo.se/'
   },
   {
     id: 'sanc-nuuk-arctic-cetacean',
@@ -2246,7 +2298,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 96,
     verifiedOfficial: true,
     contactPhone: '+299 36 12 00',
-    emergencyRadioChannel: 'Canal Nuuk Coast Guard VHF 16'
+    emergencyRadioChannel: 'Canal Nuuk Coast Guard VHF 16',
+    websiteUrl: 'https://natur.gl/'
   },
   {
     id: 'sanc-bear-prishtina-kosovo',
@@ -2282,7 +2335,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 93,
     verifiedOfficial: true,
     contactPhone: '+383 44 600 873',
-    emergencyRadioChannel: 'Canal Emergencias Badovc 147.100'
+    emergencyRadioChannel: 'Canal Emergencias Badovc 147.100',
+    websiteUrl: 'https://www.bearsanctuary-prishtina.org/'
   },
   {
     id: 'sanc-arcturos-greece',
@@ -2318,7 +2372,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 92,
     verifiedOfficial: true,
     contactPhone: '+30 23860 41500',
-    emergencyRadioChannel: 'Canal Guarda Forestal Florina VHF 154.400'
+    emergencyRadioChannel: 'Canal Guarda Forestal Florina VHF 154.400',
+    websiteUrl: 'https://www.arcturos.gr/en/'
   },
   {
     id: 'sanc-bonorong-tasmania',
@@ -2354,7 +2409,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 94,
     verifiedOfficial: true,
     contactPhone: '+61 3 6268 1184',
-    emergencyRadioChannel: 'Canal 24/7 Wildlife Rescue Tasmania 0447 264 625'
+    emergencyRadioChannel: 'Canal 24/7 Wildlife Rescue Tasmania 0447 264 625',
+    websiteUrl: 'https://www.bonorong.com.au/'
   },
   {
     id: 'sanc-currumbin-australia',
@@ -2390,7 +2446,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 93,
     verifiedOfficial: true,
     contactPhone: '+61 7 5534 0813',
-    emergencyRadioChannel: 'Canal Queensland Wildlife Rescue UHF 40'
+    emergencyRadioChannel: 'Canal Queensland Wildlife Rescue UHF 40',
+    websiteUrl: 'https://currumbinsanctuary.com.au/wildlife-hospital'
   },
   {
     id: 'sanc-beerwah-australia',
@@ -2426,7 +2483,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 95,
     verifiedOfficial: true,
     contactPhone: '+61 7 5436 2097',
-    emergencyRadioChannel: 'Canal Sunshine Coast Rescue VHF 16'
+    emergencyRadioChannel: 'Canal Sunshine Coast Rescue VHF 16',
+    websiteUrl: 'https://wildlifewarriors.org.au/'
   },
   {
     id: 'sanc-tolga-bat-australia',
@@ -2462,7 +2520,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 91,
     verifiedOfficial: true,
     contactPhone: '+61 7 4091 2683',
-    emergencyRadioChannel: 'Canal Tablelands Forest UHF 18'
+    emergencyRadioChannel: 'Canal Tablelands Forest UHF 18',
+    websiteUrl: 'https://tolgabathospital.org/'
   },
   {
     id: 'sanc-alice-springs-kangaroo',
@@ -2498,7 +2557,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 92,
     verifiedOfficial: true,
     contactPhone: '+61 8 8965 0001',
-    emergencyRadioChannel: 'Canal Outback Flying Doctor / UHF 22'
+    emergencyRadioChannel: 'Canal Outback Flying Doctor / UHF 22',
+    websiteUrl: 'https://kangaroosanctuary.com/'
   },
   {
     id: 'sanc-phillip-island-australia',
@@ -2534,7 +2594,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 96,
     verifiedOfficial: true,
     contactPhone: '+61 3 5951 2800',
-    emergencyRadioChannel: 'Canal Bass Strait Marine Rescue VHF 16'
+    emergencyRadioChannel: 'Canal Bass Strait Marine Rescue VHF 16',
+    websiteUrl: 'https://www.penguins.org.au/'
   },
   {
     id: 'sanc-zealandia-nz',
@@ -2570,7 +2631,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 98,
     verifiedOfficial: true,
     contactPhone: '+64 4 920 9200',
-    emergencyRadioChannel: 'Canal DOC Wellington Conservation VHF 04'
+    emergencyRadioChannel: 'Canal DOC Wellington Conservation VHF 04',
+    websiteUrl: 'https://www.visitzealandia.com/'
   },
   {
     id: 'sanc-whenua-hou-kakapo-nz',
@@ -2606,7 +2668,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 97,
     verifiedOfficial: true,
     contactPhone: '+64 3 211 2400',
-    emergencyRadioChannel: 'Canal DOC Southland / Rakiura Marine VHF 62'
+    emergencyRadioChannel: 'Canal DOC Southland / Rakiura Marine VHF 62',
+    websiteUrl: 'https://www.doc.govt.nz/kakapo-recovery'
   },
   {
     id: 'sanc-maungatautari-nz',
@@ -2642,7 +2705,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 96,
     verifiedOfficial: true,
     contactPhone: '+64 7 870 5180',
-    emergencyRadioChannel: 'Canal Maungatautari Fence Alert VHF 11'
+    emergencyRadioChannel: 'Canal Maungatautari Fence Alert VHF 11',
+    websiteUrl: 'https://www.sanctuarymountain.co.nz/'
   },
   {
     id: 'sanc-orokonui-dunedin-nz',
@@ -2678,7 +2742,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 95,
     verifiedOfficial: true,
     contactPhone: '+64 3 482 1755',
-    emergencyRadioChannel: 'Canal Otago Coastal Conservation VHF 16'
+    emergencyRadioChannel: 'Canal Otago Coastal Conservation VHF 16',
+    websiteUrl: 'https://orokonui.nz/'
   },
   {
     id: 'sanc-tenkile-png',
@@ -2714,7 +2779,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 94,
     verifiedOfficial: true,
     contactPhone: '+675 7289 4110',
-    emergencyRadioChannel: 'Canal HF Sandaun Conservation Net 6.540 MHz'
+    emergencyRadioChannel: 'Canal HF Sandaun Conservation Net 6.540 MHz',
+    websiteUrl: 'https://www.tenkile.com/'
   },
   {
     id: 'sanc-andasibe-madagascar',
@@ -2750,7 +2816,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 90,
     verifiedOfficial: true,
     contactPhone: '+261 20 22 415 00',
-    emergencyRadioChannel: 'Canal Madagascar National Parks VHF 154.900'
+    emergencyRadioChannel: 'Canal Madagascar National Parks VHF 154.900',
+    websiteUrl: 'https://www.parcs-madagascar.com/'
   },
   {
     id: 'sanc-taricaya-peru',
@@ -2786,7 +2853,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 91,
     verifiedOfficial: true,
     contactPhone: '+51 82 571 105',
-    emergencyRadioChannel: 'Canal SERNANP Tambopata Fluvial VHF 16'
+    emergencyRadioChannel: 'Canal SERNANP Tambopata Fluvial VHF 16',
+    websiteUrl: 'https://www.taricayaecoreserve.org/'
   },
   {
     id: 'sanc-proyecto-titi-colombia',
@@ -2822,7 +2890,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 93,
     verifiedOfficial: true,
     contactPhone: '+57 5 358 4020',
-    emergencyRadioChannel: 'Canal Parques Nacionales Caribe Colombia VHF 153.800'
+    emergencyRadioChannel: 'Canal Parques Nacionales Caribe Colombia VHF 153.800',
+    websiteUrl: 'https://www.proyectotiti.com/'
   },
   {
     id: 'sanc-wolong-panda-china',
@@ -2858,7 +2927,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 92,
     verifiedOfficial: true,
     contactPhone: '+86 837 624 6818',
-    emergencyRadioChannel: 'Canal Wolong Reserve Forest Guard VHF 156.300'
+    emergencyRadioChannel: 'Canal Wolong Reserve Forest Guard VHF 156.300',
+    websiteUrl: 'https://www.ipanda.com/'
   },
   {
     id: 'sanc-kushiro-crane-japan',
@@ -2894,7 +2964,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 96,
     verifiedOfficial: true,
     contactPhone: '+81 154 64 2620',
-    emergencyRadioChannel: 'Canal Hokkaido Ministry of Environment VHF 151.450'
+    emergencyRadioChannel: 'Canal Hokkaido Ministry of Environment VHF 151.450',
+    websiteUrl: 'https://www.wbsj.org/en/'
   },
   {
     id: 'sanc-chitwan-nepal',
@@ -2930,7 +3001,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 93,
     verifiedOfficial: true,
     contactPhone: '+977 56 580 124',
-    emergencyRadioChannel: 'Canal Chitwan Anti-Poaching Unit VHF 159.100'
+    emergencyRadioChannel: 'Canal Chitwan Anti-Poaching Unit VHF 159.100',
+    websiteUrl: 'https://chitwannationalpark.gov.np/'
   },
   {
     id: 'sanc-beluga-iceland',
@@ -2966,7 +3038,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 95,
     verifiedOfficial: true,
     contactPhone: '+354 488 2700',
-    emergencyRadioChannel: 'Canal Vestmannaeyjar Coast Guard VHF 16'
+    emergencyRadioChannel: 'Canal Vestmannaeyjar Coast Guard VHF 16',
+    websiteUrl: 'https://www.belugasanctuary.sealifetrust.org/'
   },
   {
     id: 'sanc-cairngorms-scotland',
@@ -3002,7 +3075,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 91,
     verifiedOfficial: true,
     contactPhone: '+44 1540 651 226',
-    emergencyRadioChannel: 'Canal Cairngorms Mountain Rescue VHF'
+    emergencyRadioChannel: 'Canal Cairngorms Mountain Rescue VHF',
+    websiteUrl: 'https://savingwildcats.org.uk/'
   },
   {
     id: 'sanc-gombe-tanzania',
@@ -3038,7 +3112,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 95,
     verifiedOfficial: true,
     contactPhone: '+255 28 280 2495',
-    emergencyRadioChannel: 'Canal TANAPA Gombe Ranger VHF 150.350'
+    emergencyRadioChannel: 'Canal TANAPA Gombe Ranger VHF 150.350',
+    websiteUrl: 'https://janegoodall.org/'
   },
   {
     id: 'sanc-bwindi-ngamba-uganda',
@@ -3074,7 +3149,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 94,
     verifiedOfficial: true,
     contactPhone: '+256 41 432 0662',
-    emergencyRadioChannel: 'Canal Uganda Wildlife Authority Bwindi VHF 157.100'
+    emergencyRadioChannel: 'Canal Uganda Wildlife Authority Bwindi VHF 157.100',
+    websiteUrl: 'https://ngambaisland.org/'
   },
   {
     id: 'sanc-souss-massa-morocco',
@@ -3110,7 +3186,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 93,
     verifiedOfficial: true,
     contactPhone: '+212 528 24 18 74',
-    emergencyRadioChannel: 'Canal GREPOM / Eaux et Forêts Souss VHF 154.200'
+    emergencyRadioChannel: 'Canal GREPOM / Eaux et Forêts Souss VHF 154.200',
+    websiteUrl: 'https://www.grepom.org/'
   },
   {
     id: 'sanc-bou-hedma-tunisia',
@@ -3146,7 +3223,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 90,
     verifiedOfficial: true,
     contactPhone: '+216 76 224 815',
-    emergencyRadioChannel: 'Canal Direction Générale des Forêts Tunisie VHF'
+    emergencyRadioChannel: 'Canal Direction Générale des Forêts Tunisie VHF',
+    websiteUrl: 'https://saharaconservation.org/tunisia/'
   },
   {
     id: 'sanc-wadi-el-gemal-egypt',
@@ -3182,7 +3260,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 91,
     verifiedOfficial: true,
     contactPhone: '+20 65 372 0190',
-    emergencyRadioChannel: 'Canal Red Sea Protectorates Marine VHF 16'
+    emergencyRadioChannel: 'Canal Red Sea Protectorates Marine VHF 16',
+    websiteUrl: 'https://www.hepca.org/'
   },
   {
     id: 'sanc-ferlo-guembeul-senegal',
@@ -3218,7 +3297,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 89,
     verifiedOfficial: true,
     contactPhone: '+221 33 961 18 45',
-    emergencyRadioChannel: 'Canal Parcs Nationaux du Sénégal VHF 151.400'
+    emergencyRadioChannel: 'Canal Parcs Nationaux du Sénégal VHF 151.400',
+    websiteUrl: 'https://derbianus.cz/en/'
   },
   {
     id: 'sanc-tacugama-sierra-leone',
@@ -3254,7 +3334,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 92,
     verifiedOfficial: true,
     contactPhone: '+232 76 611 255',
-    emergencyRadioChannel: 'Canal Tacugama Forest Ranger VHF 153.850'
+    emergencyRadioChannel: 'Canal Tacugama Forest Ranger VHF 153.850',
+    websiteUrl: 'https://www.tacugama.com/'
   },
   {
     id: 'sanc-afi-mountain-nigeria',
@@ -3290,7 +3371,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 93,
     verifiedOfficial: true,
     contactPhone: '+234 803 724 5190',
-    emergencyRadioChannel: 'Canal Cross River Forestry & Pandrillus VHF 158.100'
+    emergencyRadioChannel: 'Canal Cross River Forestry & Pandrillus VHF 158.100',
+    websiteUrl: 'https://www.pandrillus.org/'
   },
   {
     id: 'sanc-limbe-sanaga-cameroon',
@@ -3326,7 +3408,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 91,
     verifiedOfficial: true,
     contactPhone: '+237 233 33 20 62',
-    emergencyRadioChannel: 'Canal MINFOF Cameroon Wildlife VHF 152.600'
+    emergencyRadioChannel: 'Canal MINFOF Cameroon Wildlife VHF 152.600',
+    websiteUrl: 'https://limbewildlifecentre.org/'
   },
   {
     id: 'sanc-ouadi-rime-chad',
@@ -3362,7 +3445,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 96,
     verifiedOfficial: true,
     contactPhone: '+235 66 29 41 18',
-    emergencyRadioChannel: 'Canal Sahara Conservation Satellite Iridium / HF 8420 kHz'
+    emergencyRadioChannel: 'Canal Sahara Conservation Satellite Iridium / HF 8420 kHz',
+    websiteUrl: 'https://saharaconservation.org/chad/'
   },
   {
     id: 'sanc-bale-mountains-ethiopia',
@@ -3398,7 +3482,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 94,
     verifiedOfficial: true,
     contactPhone: '+251 22 661 0480',
-    emergencyRadioChannel: 'Canal EWCP Bale Afroalpine VHF 159.300'
+    emergencyRadioChannel: 'Canal EWCP Bale Afroalpine VHF 159.300',
+    websiteUrl: 'https://www.ethiopianwolf.org/'
   },
   {
     id: 'sanc-wrangel-island-russia',
@@ -3434,7 +3519,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 96,
     verifiedOfficial: true,
     contactPhone: '+7 42738 2-25-19',
-    emergencyRadioChannel: 'Canal Wrangel Arctic Reserve HF 5780 kHz / Iridium'
+    emergencyRadioChannel: 'Canal Wrangel Arctic Reserve HF 5780 kHz / Iridium',
+    websiteUrl: 'https://ostrovwrangelya.org/'
   },
   {
     id: 'sanc-taimyr-arctic-russia',
@@ -3470,7 +3556,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 94,
     verifiedOfficial: true,
     contactPhone: '+7 3919 64-82-11',
-    emergencyRadioChannel: 'Canal Zapovednik Taimyrsky HF 6455 kHz'
+    emergencyRadioChannel: 'Canal Zapovednik Taimyrsky HF 6455 kHz',
+    websiteUrl: 'https://zapovedsever.ru/'
   },
   {
     id: 'sanc-kytalyk-lena-yakutia',
@@ -3506,7 +3593,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 95,
     verifiedOfficial: true,
     contactPhone: '+7 4112 42-38-70',
-    emergencyRadioChannel: 'Canal Yakutia Arctic Parks HF / Iridium'
+    emergencyRadioChannel: 'Canal Yakutia Arctic Parks HF / Iridium',
+    websiteUrl: 'https://savingcranes.org/'
   },
   {
     id: 'sanc-kandalaksha-kola-russia',
@@ -3542,7 +3630,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 92,
     verifiedOfficial: true,
     contactPhone: '+7 81533 9-32-50',
-    emergencyRadioChannel: 'Canal Kandalaksha Marine Reserve VHF 16'
+    emergencyRadioChannel: 'Canal Kandalaksha Marine Reserve VHF 16',
+    websiteUrl: 'https://kandalaksha-reserve.ru/'
   },
   {
     id: 'sanc-churchill-hudson-canada',
@@ -3578,7 +3667,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 97,
     verifiedOfficial: true,
     contactPhone: '+1 204-675-2307',
-    emergencyRadioChannel: 'Canal Manitoba Polar Bear Alert Hotline (204-675-BEAR) / VHF'
+    emergencyRadioChannel: 'Canal Manitoba Polar Bear Alert Hotline (204-675-BEAR) / VHF',
+    websiteUrl: 'https://polarbearsinternational.org/'
   },
   {
     id: 'sanc-wood-buffalo-nwt-canada',
@@ -3614,7 +3704,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 94,
     verifiedOfficial: true,
     contactPhone: '+1 867-872-7960',
-    emergencyRadioChannel: 'Canal Parks Canada Wood Buffalo Dispatch VHF'
+    emergencyRadioChannel: 'Canal Parks Canada Wood Buffalo Dispatch VHF',
+    websiteUrl: 'https://parks.canada.ca/pn-np/nt/woodbuffalo'
   },
   {
     id: 'sanc-yukon-kluane-canada',
@@ -3650,7 +3741,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 93,
     verifiedOfficial: true,
     contactPhone: '+1 867-456-7400',
-    emergencyRadioChannel: 'Canal Yukon Conservation Officer Services VHF'
+    emergencyRadioChannel: 'Canal Yukon Conservation Officer Services VHF',
+    websiteUrl: 'https://yukonwildlife.ca/'
   },
   {
     id: 'sanc-baffin-lancaster-nunavut',
@@ -3686,7 +3778,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 96,
     verifiedOfficial: true,
     contactPhone: '+1 867-899-8092',
-    emergencyRadioChannel: 'Canal Sirmilik / Canadian Coast Guard Arctic VHF 16'
+    emergencyRadioChannel: 'Canal Sirmilik / Canadian Coast Guard Arctic VHF 16',
+    websiteUrl: 'https://parks.canada.ca/pn-np/nu/sirmilik'
   },
   {
     id: 'sanc-pikialasorsuaq-greenland',
@@ -3722,7 +3815,8 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 95,
     verifiedOfficial: true,
     contactPhone: '+299 97 10 88',
-    emergencyRadioChannel: 'Canal Qaanaaq Arctic Coastal Radio VHF 16'
+    emergencyRadioChannel: 'Canal Qaanaaq Arctic Coastal Radio VHF 16',
+    websiteUrl: 'https://www.pikialasorsuaq.org/'
   },
   {
     id: 'sanc-aasivissuit-kangerlussuaq-greenland',
@@ -3758,7 +3852,267 @@ export const mockSanctuaries: Sanctuary[] = [
     rewildingSuccessRatePercent: 94,
     verifiedOfficial: true,
     contactPhone: '+299 84 11 02',
-    emergencyRadioChannel: 'Canal Kangerlussuaq Science Operations VHF'
+    emergencyRadioChannel: 'Canal Kangerlussuaq Science Operations VHF',
+    websiteUrl: 'https://natur.gl/'
+  },
+  {
+    id: 'sanc-ahaggar-cheetah-algeria',
+    name: 'Ahaggar & Tassili Saharan Cheetah Biosphere Sanctuary',
+    country: 'Argelia',
+    continent: 'Africa',
+    locationName: 'Parque Cultural del Ahaggar (Hoggar) & Tassili n’Ajjer, Tamanrasset / Idlès, Sur de Argelia',
+    lat: 23.2845,
+    lng: 5.5312,
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/f/f7/Acinonyx_jubatus_ssp._hecki_in_Idl%C3%A8s_1.jpg',
+    speciesCategories: ['big_cats', 'megaherbivores'],
+    rescuedAnimalTypes: ['Guepardo del Sáhara / Noroccidental (Acinonyx jubatus hecki)', 'Gacela dorcas del Sáhara', 'Arruí del Sáhara (Ammotragus lervia sahariensis)', 'Gato de las arenas (Felis margarita)'],
+    iucnStatus: 'Critically Endangered',
+    leadBiologist: mockBiologists[9],
+    description: 'El mayor refugio del mundo para el rarísimo guepardo del Sáhara (Acinonyx jubatus hecki), del que sobreviven menos de 250 adultos en todo el planeta. En las mesetas volcánicas del macizo del Ahaggar y los cañones de gueltas permanentes, los rastreadores Tuareg y biólogos operan redes de cámaras trampa infrarrojas a lo largo de miles de kilómetros cuadrados.',
+    interventionAreaHectares: 4500000,
+    volunteerProgram: {
+      minDays: 21,
+      maxDays: 60,
+      weeklyHours: 35,
+      accommodationType: 'Estación científica desértica en Tamanrasset y campamentos móviles Tuareg junto a las gueltas del macizo de Atakor',
+      skillsRequired: ['Resistencia a la amplitud térmica del Sáhara central (días secos y noches frías a 2.000m de altitud)', 'Manejo de GPS satelital y cámaras trampa de largo alcance'],
+      tasksIncluded: ['Instalación y revisión de estaciones de fototrampeo en pasos rocosos y gueltas de agua donde bebe el esquivo guepardo del Sáhara', 'Identificación individual mediante software de patrón único de manchas faciales y corporales de cada guepardo fotografiado', 'Censo de poblaciones presa de gacela dorcas, arruí sahariano y damán de las rocas junto a guías ecológicos Kel Ahaggar', 'Recolección de muestras fecales en arena seca para secuenciación de ADN no invasivo'],
+      dietProvided: 'Gastronomía argelina y tuareg del Hoggar (pan taguella cocido bajo las brasas, cuscús de verduras, sopa chorba, dátiles Deglet Nour y té del desierto)',
+      safetyBriefingRequired: true,
+      languagesRequired: ['Francés o Inglés', 'Árabe o Tamahaq muy valorado'],
+      dailyScheduleOverview: '05:45 Salida en 4x4 por los uadis volcánicos de Atakor · 11:00 Análisis de huellas en gueltas · 16:00 Revisión de cámaras trampa · 20:00 Catalogación biométrica'
+    },
+    rating: 5.0,
+    reviewsCount: 34,
+    activePatrolUnits: 9,
+    foundedYear: 1987,
+    rewildingSuccessRatePercent: 93,
+    verifiedOfficial: true,
+    contactPhone: '+213 29 34 46 12',
+    emergencyRadioChannel: 'Canal OPCA Ahaggar Tamanrasset HF / Satélite Iridium',
+    websiteUrl: 'https://cheetah.org/'
+  },
+  {
+    id: 'sanc-chrea-djurdjura-algeria',
+    name: 'Chréa & Djurdjura Barbary Macaque & Atlas Cedar Sanctuary',
+    country: 'Argelia',
+    continent: 'Africa',
+    locationName: 'Reserva de la Biosfera de Chréa (Gargantas de la Chiffa) & Macizo de Djurdjura, Atlas Telliano, Norte de Argelia',
+    lat: 36.4265,
+    lng: 2.8762,
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Macaca_sylvanus.Mother_and_baby.jpg/960px-Macaca_sylvanus.Mother_and_baby.jpg',
+    speciesCategories: ['primates', 'raptors_birds'],
+    rescuedAnimalTypes: ['Macaco de Berbería (Macaca sylvanus)', 'Hiena rayada norteafricana (Hyaena hyaena barbara)', 'Gacela de Cuvier (Gazella cuvieri)', 'Trepador argelino / Kabyle nuthatch (Sitta ledanti)'],
+    iucnStatus: 'Endangered',
+    leadBiologist: mockBiologists[5],
+    description: 'Santuario montañoso de bosques centenarios de cedro del Atlas (Cedrus atlantica) que protege al único primate salvaje de África al norte del Sáhara y el único macaco fuera de Asia: el macaco de Berbería (Macaca sylvanus), famoso porque los machos cuidan y portean activamente a las crías durante el invierno nevado del Atlas.',
+    interventionAreaHectares: 62216,
+    volunteerProgram: {
+      minDays: 14,
+      maxDays: 60,
+      weeklyHours: 34,
+      accommodationType: 'Refugio biológico forestal entre cedros del Atlas a 1.500 metros de altitud en Chréa / Tikjda',
+      skillsRequired: ['Buena condición física para senderos de montaña en el Atlas', 'Conocimientos de etología primate o botánica forestal'],
+      tasksIncluded: ['Seguimiento etológico de las tropas salvajes de macaco de Berbería y campañas de erradicación de la alimentación artificial por visitantes en las Gargantas de la Chiffa', 'Reforestación de cedro del Atlas (Cedrus atlantica) y roble mirbeckii para conectar fragmentos forestales', 'Monitoreo con cámaras nocturnas de la hiena rayada del Magreb y el caracal norteafricano', 'Censo del trepador de Cabilia (Sitta ledanti), ave endémica exclusiva de los bosques húmedos de montaña de Argelia'],
+      dietProvided: 'Cocina argelina y cabila tradicional de montaña (cuscús con siete verduras, pan kesra con aceite de oliva virgen de Cabilia, higos secos y legumbres)',
+      safetyBriefingRequired: true,
+      languagesRequired: ['Francés o Inglés', 'Árabe o Amazigh Cabilio valorado'],
+      dailyScheduleOverview: '07:00 Censo de tropas de macaco de Berbería en el cedral · 11:30 Vivero de Cedrus atlantica · 15:00 Patrulla de concienciación en Chiffa · 18:30 Registro etológico'
+    },
+    rating: 4.9,
+    reviewsCount: 39,
+    activePatrolUnits: 8,
+    foundedYear: 1983,
+    rewildingSuccessRatePercent: 91,
+    verifiedOfficial: true,
+    contactPhone: '+213 25 43 11 85',
+    emergencyRadioChannel: 'Canal Direction Générale des Forêts Algérie Chréa VHF',
+    websiteUrl: 'https://barbarymacaque.org/'
+  },
+  {
+    id: 'sanc-el-kala-algeria',
+    name: 'El Kala & Lake Tonga Barbary Stag & Wetlands Biosphere Sanctuary',
+    country: 'Argelia',
+    continent: 'Africa',
+    locationName: 'Parque Nacional y Reserva de la Biosfera de El Kala (Lagos Tonga y Oubeira), El Tarf, Noreste de Argelia',
+    lat: 36.8812,
+    lng: 8.4415,
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Cervus_elaphus_barbarus%2C_Friguia_Park%2C_Tunisie_2015_%28cropped%29.jpg/960px-Cervus_elaphus_barbarus%2C_Friguia_Park%2C_Tunisie_2015_%28cropped%29.jpg',
+    speciesCategories: ['megaherbivores', 'raptors_birds'],
+    rescuedAnimalTypes: ['Ciervo de Berbería / Ciervo del Atlas (Cervus elaphus barbarus)', 'Malvasía cabeciblanca (Oxyura leucocephala)', 'Nutria euroasiática del Magreb', 'Caracal del norte de África'],
+    iucnStatus: 'Endangered',
+    leadBiologist: mockBiologists[0],
+    description: 'Enclave ecológico único en la costa mediterránea del noreste de Argelia que salvó de la extinción total al único ciervo nativo del continente africano: el ciervo de Berbería (Cervus elaphus barbarus), además de proteger en los lagos de Tonga y Oubeira una de las mayores poblaciones reproductoras mundiales de la malvasía cabeciblanca.',
+    interventionAreaHectares: 76438,
+    volunteerProgram: {
+      minDays: 14,
+      maxDays: 45,
+      weeklyHours: 34,
+      accommodationType: 'Estación ornitológica y forestal junto al Lago Tonga en la reserva de El Kala',
+      skillsRequired: ['Experiencia en censos de aves acuáticas o rastreo de cérvidos en bosque mediterráneo denso', 'Manejo de telescopios y GPS'],
+      tasksIncluded: ['Censo auditivo durante la berrea otoñal y seguimiento por fototrampeo de las manadas de ciervo de Berbería en los alcornocales de El Kala', 'Monitoreo desde observatorios lacustres de la nidificación de la malvasía cabeciblanca (Oxyura leucocephala) y el porrón pardo en el Lago Tonga', 'Prevención de incendios forestales y restauración de bosques de alcornoque (Quercus suber)', 'Seguimiento de rastros de nutria en los arroyos costeros y dunas de El Kala'],
+      dietProvided: 'Cocina mediterránea argelina fresca (chorba frik, verduras de temporada a la parrilla, legumbres, pan matlouh casero y frutas mediterráneas)',
+      safetyBriefingRequired: true,
+      languagesRequired: ['Francés o Inglés', 'Árabe valorado'],
+      dailyScheduleOverview: '06:00 Rastreo de ciervo de Berbería en el alcornocal · 10:30 Censo ornitológico en Lago Tonga y Oubeira · 15:30 Restauración forestal · 18:30 Base de datos Ramsar'
+    },
+    rating: 4.9,
+    reviewsCount: 27,
+    activePatrolUnits: 7,
+    foundedYear: 1983,
+    rewildingSuccessRatePercent: 92,
+    verifiedOfficial: true,
+    contactPhone: '+213 38 66 14 20',
+    emergencyRadioChannel: 'Canal Parc National d’El Kala VHF 156.400',
+    websiteUrl: 'https://en.unesco.org/biosphere/arab-states/el-kala'
+  },
+  {
+    id: 'sanc-niokolo-koba-senegal',
+    name: 'Niokolo-Koba West African Lion & Chimpanzee Biosphere Sanctuary',
+    country: 'Senegal',
+    continent: 'Africa',
+    locationName: 'Parque Nacional y Reserva de la Biosfera de Niokolo-Koba, Río Gambia, Tambacounda / Kédougou, Sureste de Senegal',
+    lat: 13.0685,
+    lng: -12.7214,
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Lionss_of_king.jpg/960px-Lionss_of_king.jpg',
+    speciesCategories: ['big_cats', 'primates', 'megaherbivores'],
+    rescuedAnimalTypes: ['León de África Occidental (Panthera leo leo - En Peligro Crítico)', 'Licaón de África Occidental (Lycaon pictus manguensis)', 'Chimpancé de sabana occidental', 'Pangolín gigante (Smutsia gigantea)'],
+    iucnStatus: 'Critically Endangered',
+    leadBiologist: mockBiologists[9],
+    description: 'Patrimonio de la Humanidad y baluarte vital en el sureste de Senegal para la supervivencia del león de África Occidental (del que quedan menos de 250 individuos maduros en toda la región), el licaón senegalés, la población más septentrional de chimpancés de sabana y los últimos elefantes del país a lo largo del río Gambia.',
+    interventionAreaHectares: 913000,
+    volunteerProgram: {
+      minDays: 21,
+      maxDays: 90,
+      weeklyHours: 36,
+      accommodationType: 'Campamento científico de Simenti junto al meandro del río Gambia con energía solar y mosquiteras',
+      skillsRequired: ['Alta tolerancia al calor sudano-guineano', 'Experiencia en seguimiento por collares GPS satelitales y cámaras trampa'],
+      tasksIncluded: ['Rastreo por telemetría GPS/Iridium en colaboración con Panthera y la Dirección de Parques Nacionales de las manadas de león de África Occidental', 'Revisión de la red de 200 cámaras trampa en las galerías forestales del río Niokolo para monitorear leones, leopardos, licaones y pangolines gigantes', 'Censo de nidos del chimpancé de sabana en las colinas de Assirik (los chimpancés que viven en el hábitat más cálido y seco de África)', 'Apoyo logístico a las brigadas anti-caza furtiva en las mares (lagunas estacionales) de Simenti'],
+      dietProvided: 'Gastronomía senegalesa de campamento (arroz jollof, mafe de verduras y cacahuete, fonio tradicional de Kédougou, mangos y zumo de baobab)',
+      safetyBriefingRequired: true,
+      languagesRequired: ['Francés o Inglés'],
+      dailyScheduleOverview: '05:45 Rastreo telemétrico de leones de África Occidental · 11:30 Descarga de cámaras trampa y análisis SMART · 16:00 Censo en la laguna de Simenti · 19:30 Briefing'
+    },
+    rating: 5.0,
+    reviewsCount: 45,
+    activePatrolUnits: 15,
+    foundedYear: 1954,
+    rewildingSuccessRatePercent: 93,
+    verifiedOfficial: true,
+    contactPhone: '+221 33 981 10 96',
+    emergencyRadioChannel: 'Canal DPN Niokolo-Koba & Panthera Ranger VHF 154.900',
+    websiteUrl: 'https://panthera.org/'
+  },
+  {
+    id: 'sanc-sine-saloum-senegal',
+    name: 'Sine-Saloum Delta West African Manatee & Sea Turtle Sanctuary',
+    country: 'Senegal',
+    continent: 'Africa',
+    locationName: 'Reserva de la Biosfera del Delta del Saloum & Área Marina Protegida de Bamboung, Fatick, Costa de Senegal',
+    lat: 13.8312,
+    lng: -16.4985,
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/African_manatee_at_Coex_Aquarium%2C_South_Korea.jpg/960px-African_manatee_at_Coex_Aquarium%2C_South_Korea.jpg',
+    speciesCategories: ['marine_wildlife', 'raptors_birds'],
+    rescuedAnimalTypes: ['Manatí de África Occidental (Trichechus senegalensis)', 'Delfín giboso atlántico (Sousa teuszii - En Peligro Crítico)', 'Tortuga verde del Atlántico', 'Charrán real y Pelícano blanco'],
+    iucnStatus: 'Vulnerable',
+    leadBiologist: mockBiologists[3],
+    description: 'Laberinto costero de 180.000 hectáreas de canales de manglar (bolongs), manantiales subacuáticos de agua dulce e islas de conchas en Senegal. Constituye un santuario clave para el esquivo manatí africano, el delfín giboso del Atlántico (en peligro crítico) y las mayores colonias reproductoras de aves marinas de África Occidental.',
+    interventionAreaHectares: 180000,
+    volunteerProgram: {
+      minDays: 14,
+      maxDays: 60,
+      weeklyHours: 34,
+      accommodationType: 'Campamento ecológico comunitario sobre pilotes en el Área Marina Protegida de Bamboung (Toubacouta)',
+      skillsRequired: ['Buena habilidad de natación y navegación en piraguas científicas por canales de manglar', 'Manejo de sonar de barrido lateral e hidrófonos'],
+      tasksIncluded: ['Detección acústica pasiva y monitoreo en los manantiales de agua dulce de los bolongs donde acuden a beber los manatíes de África Occidental', 'Avistamiento y fotoidentificación de aletas dorsales del rarísimo delfín giboso atlántico (Sousa teuszii) en los canales costeros de Sangomar', 'Reforestación comunitaria de propágulos de mangle rojo (Rhizophora mangle) junto a las mujeres recolectoras de ostras del Saloum', 'Vigilancia de nidos de tortuga verde y colonias de 40.000 parejas de charrán real en el islote de las Aves'],
+      dietProvided: 'Cocina costera senegalesa sostenible (thiéboudienne, verduras frescas, mijo cuscús thiéré, frutas tropicales e infusión de kinkeliba)',
+      safetyBriefingRequired: true,
+      languagesRequired: ['Francés o Inglés', 'Serer o Wolof valorado'],
+      dailyScheduleOverview: '06:30 Salida en piragua solar por los bolongs para monitoreo de manatíes · 11:00 Fotoidentificación de delfín Sousa teuszii · 15:30 Plantación de manglar · 18:30 Registro'
+    },
+    rating: 4.9,
+    reviewsCount: 39,
+    activePatrolUnits: 8,
+    foundedYear: 1976,
+    rewildingSuccessRatePercent: 92,
+    verifiedOfficial: true,
+    contactPhone: '+221 33 948 77 14',
+    emergencyRadioChannel: 'Canal DAMCP Bamboung & Saloum Marine VHF 16',
+    websiteUrl: 'https://africanaquaticconservation.org/'
+  },
+  {
+    id: 'sanc-papaye-cameroon',
+    name: 'Sanctuaire de Chimpanzés Papaye International (Association Papaye France)',
+    country: 'Camerún',
+    continent: 'Africa',
+    locationName: 'Islas del Río Sanaga (Pongo, Yatou y Okokong), Doumé / Édéa, Parque Nacional de Douala-Édéa, Camerún',
+    lat: 3.8012,
+    lng: 10.1325,
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg/960px-015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg',
+    speciesCategories: ['primates'],
+    rescuedAnimalTypes: ['Chimpancé de Nigeria-Camerún (Pan troglodytes ellioti)', 'Chimpancé central (Pan troglodytes troglodytes)', 'Cercopiteco de nariz blanca'],
+    iucnStatus: 'Endangered',
+    leadBiologist: mockBiologists[5],
+    description: 'Santuario insular ejemplar en las islas selváticas del río Sanaga cerca de Édéa (Doumé), impulsado por Papaye International y Association Papaye France (fundado por Patricia Leschaeve). Acoge y rehabilita en semilibertad natural sobre tres islas boscosas (Pongo, Yatou y Okokong) a decenas de chimpancés huérfanos rescatados de la caza furtiva.',
+    interventionAreaHectares: 160000,
+    volunteerProgram: {
+      minDays: 14,
+      maxDays: 60,
+      weeklyHours: 35,
+      accommodationType: 'Campamento de selva de Doumé a orillas del río Sanaga con energía solar',
+      skillsRequired: ['Vacunación internacional al día y pruebas médicas para primatología', 'Buena adaptación al clima ecuatorial húmedo y desplazamientos en piragua'],
+      tasksIncluded: ['Preparación y distribución desde piragua de suplementos nutricionales para los grupos de chimpancés que viven libres en las islas de Pongo, Yatou y Okokong', 'Cuidado intensivo y socialización de crías huérfanas recién rescatadas en la guardería forestal antes de su integración insular', 'Vigilancia fluvial en el río Sanaga para proteger el perímetro de las islas frente a intrusos', 'Apoyo veterinario y seguimiento etológico de los nacimientos en semilibertad'],
+      dietProvided: 'Comida camerunesa fresca en el campamento del río Sanaga (arroz, plátano macho, mandioca, verduras tropicales, papayas, piñas y mangos)',
+      safetyBriefingRequired: true,
+      languagesRequired: ['Francés', 'Inglés valorado'],
+      dailyScheduleOverview: '06:30 Preparación de frutas y salida en piragua a las islas del río Sanaga · 10:30 Observación etológica desde el río · 14:30 Cuidado de huérfanos en Doumé · 18:00 Informe'
+    },
+    rating: 5.0,
+    reviewsCount: 52,
+    activePatrolUnits: 8,
+    foundedYear: 2001,
+    rewildingSuccessRatePercent: 95,
+    verifiedOfficial: true,
+    contactPhone: '+33 6 82 59 14 70 / +237 699 84 12 30',
+    emergencyRadioChannel: 'Canal Papaye Sanaga River Patrol VHF',
+    websiteUrl: 'https://www.association-papaye-france.fr/'
+  },
+  {
+    id: 'sanc-lola-ya-bonobo-drc',
+    name: 'Lola ya Bonobo Sanctuary & Ekolo ya Bonobo Release Reserve',
+    country: 'RD del Congo',
+    continent: 'Africa',
+    locationName: 'Petites Chutes de la Lukaya (Kinshasa) & Reserva Forestal de Ekolo ya Bonobo (Basankusu), RD del Congo',
+    lat: -4.4812,
+    lng: 15.2685,
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Apeldoorn_Apenheul_zoo_Bonobo.jpg/960px-Apeldoorn_Apenheul_zoo_Bonobo.jpg',
+    speciesCategories: ['primates'],
+    rescuedAnimalTypes: ['Bonobo / Chimpancé pigmeo (Pan paniscus)', 'Pangolín de vientre blanco', 'Cercopiteco de Wolf'],
+    iucnStatus: 'Endangered',
+    leadBiologist: mockBiologists[0],
+    description: 'El único santuario del planeta dedicado a los bonobos (Pan paniscus) huérfanos y el primer proyecto de la historia en reintroducir grupos completos de bonobos rehabilitados de vuelta a la selva inundable de la cuenca del río Congo en la reserva comunitaria de Ekolo ya Bonobo.',
+    interventionAreaHectares: 48000,
+    volunteerProgram: {
+      minDays: 14,
+      maxDays: 60,
+      weeklyHours: 35,
+      accommodationType: 'Estación biológica de campo con energía solar',
+      skillsRequired: ['Respeto absoluto a la fauna silvestre', 'Buena condición física para trabajo de terreno'],
+      tasksIncluded: ['Monitoreo por telemetría y cámaras trampa de ejemplares liberados', 'Restauración de hábitat y preparación de forraje natural sin contacto humano', 'Apoyo a las patrullas de protección perimetral'],
+      dietProvided: 'Comida local fresca y equilibrada en el campamento científico',
+      safetyBriefingRequired: true,
+      languagesRequired: ['Inglés', 'Idioma local valorado'],
+      dailyScheduleOverview: '06:30 Rastreo matutino de campo · 11:30 Análisis de datos y nutrición · 15:30 Patrulla de hábitat · 18:30 Informe'
+    },
+    rating: 4.9,
+    reviewsCount: 32,
+    activePatrolUnits: 7,
+    foundedYear: 2005,
+    rewildingSuccessRatePercent: 92,
+    verifiedOfficial: true,
+    contactPhone: '+243 81 555 21 90',
+    emergencyRadioChannel: 'Canal Les Amis des Bonobos du Congo VHF 154.500',
+    websiteUrl: 'https://www.bonobos.org/'
   }
 ];
 
@@ -4013,6 +4367,132 @@ export const mockSuccessStories: SuccessStory[] = [
     story: 'Rescatada flotando a la deriva con una grave herida de hélice en el caparazón y enredo de cabos plásticos. Tras 9 meses de cuidados veterinarios y reconstrucción de queratina, fue devuelta al océano en Guanacaste.',
     trackingStatus: 'wild_satellite_active',
     keyImpact: 'Ha completado una migración de 2.400 km hacia las Islas Galápagos monitoreada vía satélite.'
+  },
+  {
+    id: 'story-5',
+    animalName: 'Odrina',
+    species: 'Lince ibérico',
+    scientificName: 'Lynx pardinus',
+    sanctuaryId: 'sanc-lynx',
+    sanctuaryName: 'Sierra Morena Iberian Lynx Conservation Base',
+    rescueYear: 2021,
+    releaseYear: 2023,
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Lince_ib%C3%A9rico_%28Lynx_pardinus%29%2C_Almuradiel%2C_Ciudad_Real%2C_Espa%C3%B1a%2C_2021-12-19%2C_DD_07.jpg/960px-Lince_ib%C3%A9rico_%28Lynx_pardinus%29%2C_Almuradiel%2C_Ciudad_Real%2C_Espa%C3%B1a%2C_2021-12-19%2C_DD_07.jpg',
+    story: 'Cachorra huérfana rescatada tras el atropello de su madre en un corredor vial de Andalucía. Criada en grandes cercados de monte mediterráneo sin contacto visual humano para preservar su instinto de caza de conejo silvestre.',
+    trackingStatus: 'reproducing_in_wild',
+    keyImpact: 'Ha sacado adelante dos camadas consecutivas (5 cachorros en total) en libertad en el valle del Guarrizas.'
+  },
+  {
+    id: 'story-6',
+    animalName: 'Aramí',
+    species: 'Yaguareté / Jaguar',
+    scientificName: 'Panthera onca',
+    sanctuaryId: 'sanc-ibera-argentina',
+    sanctuaryName: 'Esteros del Iberá Yaguareté & Wetlands Rewilding Reserve',
+    rescueYear: 2020,
+    releaseYear: 2024,
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Jaguar_%28Panthera_onca_palustris%29_male_Rio_Negro_2.JPG/960px-Jaguar_%28Panthera_onca_palustris%29_male_Rio_Negro_2.JPG',
+    story: 'Una de las primeras yaguaretés nacidas en el Centro de Reintroducción de San Alonso y liberadas en los grandes humedales de Corrientes tras 70 años de extinción local de la especie en la región.',
+    trackingStatus: 'reproducing_in_wild',
+    keyImpact: 'Su liberación restauró el rol de depredador tope en más de 150.000 hectáreas de esteros y dio a luz a cachorros salvajes.'
+  },
+  {
+    id: 'story-7',
+    animalName: 'Kouakou',
+    species: 'Chimpancé de Nigeria-Camerún',
+    scientificName: 'Pan troglodytes ellioti',
+    sanctuaryId: 'sanc-papaye-cameroon',
+    sanctuaryName: 'Sanctuaire de Chimpanzés Papaye International (Association Papaye France)',
+    rescueYear: 2021,
+    releaseYear: 2024,
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg/960px-015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg',
+    story: 'Rescatado con apenas 7 meses de los traficantes de carne de monte en el litoral de Camerún. Tras superar el trauma inicial con el equipo de Association Papaye France en Doumé, fue integrado en un grupo familiar en las islas selváticas del río Sanaga.',
+    trackingStatus: 'wild_satellite_active',
+    keyImpact: 'Vive en libertad insular en el dosel de la isla de Pongo junto a 24 congéneres bajo protección fluvial permanente.'
+  },
+  {
+    id: 'story-8',
+    animalName: 'Sahara-14 ("Nour")',
+    species: 'Órix de cuernos de cimitarra',
+    scientificName: 'Oryx dammah',
+    sanctuaryId: 'sanc-ouadi-rime-chad',
+    sanctuaryName: 'Ouadi Rimé-Ouadi Achim Sahelian Addax & Oryx Rewilding Reserve',
+    rescueYear: 2021,
+    releaseYear: 2023,
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/3a/Oryx_Dammah.jpg',
+    story: 'Hembra nacida dentro del programa internacional para devolver a la vida silvestre a una especie declarada extinta en libertad en el año 2000. Aclimatada al calor del Sahel en la base de Ouadi Rimé y liberada con collar satelital Iridium.',
+    trackingStatus: 'reproducing_in_wild',
+    keyImpact: 'Ha dado a luz a 3 crías salvajes en las praderas del Chad, contribuyendo a que la UICN rebajara la amenaza de la especie.'
+  },
+  {
+    id: 'story-9',
+    animalName: 'Tama-Kahu',
+    species: 'Kākāpō (Loro nocturno no volador)',
+    scientificName: 'Strigops habroptila',
+    sanctuaryId: 'sanc-whenua-hou-kakapo-nz',
+    sanctuaryName: 'Whenua Hou (Codfish Island) Kākāpō Recovery Sanctuary',
+    rescueYear: 2022,
+    releaseYear: 2024,
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Sirocco_full_length_portrait.jpg',
+    story: 'Rescatado de una infección fúngica respiratoria (aspergilosis) mediante tratamiento veterinario intensivo y devuelto a los bosques húmedos de rimu de la isla santuario de Whenua Hou libre de depredadores.',
+    trackingStatus: 'wild_satellite_active',
+    keyImpact: 'Transmisor inteligente "Smart Transmitter" confirma actividad nocturna óptima y cortejo (booming) en la cresta sur.'
+  },
+  {
+    id: 'story-10',
+    animalName: 'Nyasha',
+    species: 'Licaón / Perro salvaje africano',
+    scientificName: 'Lycaon pictus',
+    sanctuaryId: 'sanc-painted-dog-zimbabwe',
+    sanctuaryName: 'Painted Dog Conservation Sanctuary & Rehabilitation Camp',
+    rescueYear: 2023,
+    releaseYear: 2024,
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/African_Wild_Dog_at_Working_with_Wildlife.jpg/960px-African_Wild_Dog_at_Working_with_Wildlife.jpg',
+    story: 'Hallada con un lazo de alambre furtivo incrustado en el cuello en la frontera del Parque Nacional Hwange. El equipo veterinario de Painted Dog Conservation operó la herida en el centro de rehabilitación y la devolvió a su jauría de 14 miembros.',
+    trackingStatus: 'reproducing_in_wild',
+    keyImpact: 'Hembra alfa de la jauría de Nyamandhlovu; este año emergieron 9 cachorros sanos de su madriguera.'
+  },
+  {
+    id: 'story-11',
+    animalName: 'Borya',
+    species: 'Tigre de Amur / Siberiano',
+    scientificName: 'Panthera tigris altaica',
+    sanctuaryId: 'sanc-amur-leopard',
+    sanctuaryName: 'Land of the Leopard & Amur Tiger Rehabilitation Sanctuary',
+    rescueYear: 2021,
+    releaseYear: 2023,
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/P.t.altaica_Tomak_Male.jpg/960px-P.t.altaica_Tomak_Male.jpg',
+    story: 'Encontrado en medio del invierno siberiano a -30°C como cachorro huérfano con congelación leve. Rehabilitado durante 16 meses en recintos de taiga cerrada aprendiendo a cazar jabalíes y ciervos sika sin presencia humana.',
+    trackingStatus: 'wild_satellite_active',
+    keyImpact: 'Collar GPS Argos registra más de 600 km² de territorio establecido en la taiga del río Amur.'
+  },
+  {
+    id: 'story-12',
+    animalName: 'Little Grey & Little White',
+    species: 'Ballena beluga ártica',
+    scientificName: 'Delphinapterus leucas',
+    sanctuaryId: 'sanc-beluga-iceland',
+    sanctuaryName: 'Klettsvik Bay Beluga Whale & Atlantic Puffin Rescue Sanctuary',
+    rescueYear: 2019,
+    releaseYear: 2023,
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Oceanogr%C3%A0fic_29102004.jpg/960px-Oceanogr%C3%A0fic_29102004.jpg',
+    story: 'Trasladadas a través de 9.000 km desde el cautiverio hasta las aguas subárticas naturales de la bahía volcánica de Klettsvik en las Islas Vestman (Islandia), el primer santuario en mar abierto del mundo para cetáceos.',
+    trackingStatus: 'wild_satellite_active',
+    keyImpact: 'Adaptadas a las corrientes marinas del Atlántico Norte, buceando entre bosques de algas kelp y fauna subártica.'
+  },
+  {
+    id: 'story-auto-1',
+    animalName: 'Mwindu',
+    species: 'Bonobo / Chimpancé pigmeo',
+    scientificName: 'Pan paniscus',
+    sanctuaryId: 'sanc-virunga',
+    sanctuaryName: 'Lola ya Bonobo & Ekolo ya Bonobo Reserve',
+    rescueYear: 2021,
+    releaseYear: 2025,
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Apeldoorn_Apenheul_zoo_Bonobo.jpg/960px-Apeldoorn_Apenheul_zoo_Bonobo.jpg',
+    story: 'Rescatado siendo una cría en un mercado fluvial de la cuenca del Congo. Tras 4 años de socialización matriarcal en selva primaria, fue reintroducido con su grupo adoptivo en la reserva inundable de Ekolo ya Bonobo.',
+    trackingStatus: 'reproducing_in_wild',
+    keyImpact: 'Monitoreado por ecoguardas locales; forrajea más de 60 especies de frutos silvestres en libertad total.'
   }
 ];
 
@@ -4023,7 +4503,7 @@ export const mockIncidents: FieldIncident[] = [
     sanctuaryName: 'Tsavo Elephant & Rhino Re-Wilding Sanctuary',
     reportedBy: 'Kiprono Cheruiyot (Guardaparque)',
     reporterRole: 'Ranger de Patrulla',
-    timestamp: '2026-10-20 00:59',
+    timestamp: '2026-10-20 01:46',
     type: 'poaching_threat',
     urgency: 'critical',
     lat: -3.3850,
@@ -4039,7 +4519,7 @@ export const mockIncidents: FieldIncident[] = [
     sanctuaryName: 'Ostional Pacific Marine & Sea Turtle Sanctuary',
     reportedBy: 'Camila Ríos (Voluntaria)',
     reporterRole: 'Voluntaria de Monitoreo',
-    timestamp: '2026-10-19 17:59',
+    timestamp: '2026-10-19 18:46',
     type: 'illegal_snare',
     urgency: 'high',
     lat: 10.0021,
@@ -4055,7 +4535,7 @@ export const mockIncidents: FieldIncident[] = [
     sanctuaryName: 'Pantanal Wild Jaguar & Wetlands Protection Reserve',
     reportedBy: 'Thiago Oliveira (Biólogo de Campo)',
     reporterRole: 'Biólogo',
-    timestamp: '2026-10-19 10:59',
+    timestamp: '2026-10-19 11:46',
     type: 'wildfire_hazard',
     urgency: 'critical',
     lat: -16.9110,

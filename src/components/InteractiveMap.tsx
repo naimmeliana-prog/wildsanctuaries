@@ -95,14 +95,14 @@ export const InteractiveMap: React.FC<InteractiveMapProps> = ({
       zoom: 3,
       minZoom: 2,
       maxZoom: 18,
-      zoomControl: false
+      zoomControl: false,
+      attributionControl: false
     });
 
     L.control.zoom({ position: 'bottomright' }).addTo(map);
 
     // Initial base layer (Esri World Street Map - 100% Free, No API Key Required, Fast & High Contrast)
     const baseLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
-      attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China, TomTom',
       maxZoom: 19
     }).addTo(map);
 
@@ -125,20 +125,17 @@ export const InteractiveMap: React.FC<InteractiveMapProps> = ({
     }
 
     let url = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}';
-    let attr = 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China, TomTom';
     let maxZ = 19;
 
     if (mapLayer === 'satellite') {
       url = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
-      attr = 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community';
       maxZ = 18;
     } else if (mapLayer === 'terrain') {
       url = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}';
-      attr = 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey';
       maxZ = 18;
     }
 
-    const newLayer = L.tileLayer(url, { attribution: attr, maxZoom: maxZ }).addTo(map);
+    const newLayer = L.tileLayer(url, { maxZoom: maxZ }).addTo(map);
     (map as any)._baseTileLayer = newLayer;
   }, [mapLayer]);
 
@@ -185,9 +182,16 @@ export const InteractiveMap: React.FC<InteractiveMapProps> = ({
             <div style="font-size: 14px; font-weight: 700; color: #0f172a; margin-bottom: 4px; line-height: 1.3;">
               ${s.name}
             </div>
-            <div style="font-size: 12px; color: #64748b; margin-bottom: 8px;">
+            <div style="font-size: 12px; color: #64748b; margin-bottom: 6px;">
               ${s.rescuedAnimalTypes.slice(0, 2).join(' · ')}
             </div>
+            ${s.websiteUrl ? `
+            <div style="font-size: 11px; margin-bottom: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+              <a href="${s.websiteUrl}" target="_blank" rel="noopener noreferrer" style="color: #0f766e; font-weight: 600; text-decoration: underline;">
+                ${s.websiteUrl.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')} ↗
+              </a>
+            </div>
+            ` : ''}
             <div style="display: flex; justify-content: space-between; font-size: 11px; color: #475569; border-top: 1px solid #e2e8f0; padding-top: 8px; margin-bottom: 10px;">
               <span><strong>${s.interventionAreaHectares.toLocaleString()} ha</strong> protegidas</span>
               <span style="color: #0f766e; font-weight: 600;">${s.rewildingSuccessRatePercent}% éxito</span>

@@ -291,6 +291,23 @@ export const SanctuariesGrid: React.FC<SanctuariesGridProps> = ({
                     {s.rescuedAnimalTypes.join(' · ')}
                   </div>
 
+                  {/* Official Website URL */}
+                  {s.websiteUrl && (
+                    <div className="text-[11px] font-mono truncate">
+                      <span className="text-slate-400">Web: </span>
+                      <a
+                        href={s.websiteUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-emerald-700 dark:text-emerald-400 hover:underline inline-flex items-center gap-1"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        <span>{s.websiteUrl.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')}</span>
+                        <ExternalLink className="w-3 h-3 shrink-0" />
+                      </a>
+                    </div>
+                  )}
+
                   {/* Volunteer program specs strip */}
                   <div className="p-2.5 bg-slate-50 dark:bg-slate-950 border border-slate-100 dark:border-slate-800 text-xs font-mono grid grid-cols-2 gap-2 text-slate-600 dark:text-slate-300">
                     <div>
@@ -313,6 +330,18 @@ export const SanctuariesGrid: React.FC<SanctuariesGridProps> = ({
                 >
                   {language === 'es' ? 'Ver Ficha Completa' : 'View Full Profile'}
                 </button>
+                {s.websiteUrl && (
+                  <a
+                    href={s.websiteUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title={s.websiteUrl}
+                    className="py-2 px-3 border border-slate-300 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200 text-xs font-medium transition-colors flex items-center gap-1.5"
+                  >
+                    <ExternalLink className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
+                    <span>{language === 'es' ? 'Web' : 'Web'}</span>
+                  </a>
+                )}
               </div>
             </div>
           ))}

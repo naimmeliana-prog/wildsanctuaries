@@ -58,6 +58,7 @@ export interface Sanctuary {
   verifiedOfficial: boolean;
   contactPhone: string;
   emergencyRadioChannel: string;
+  websiteUrl?: string;
 }
 
 export interface VolunteerReview {
