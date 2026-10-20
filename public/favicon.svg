@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="ws-grad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="55%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+  <!-- 4 garras/almohadillas superiores ocupando todo el ancho y alto superior (sin márgenes) -->
+  <ellipse cx="9.5" cy="25" rx="9" ry="12.5" transform="rotate(-22 9.5 25)" fill="url(#ws-grad)" />
+  <ellipse cx="24" cy="11.5" rx="8.8" ry="11.5" transform="rotate(-7 24 11.5)" fill="url(#ws-grad)" />
+  <ellipse cx="40" cy="11.5" rx="8.8" ry="11.5" transform="rotate(7 40 11.5)" fill="url(#ws-grad)" />
+  <ellipse cx="54.5" cy="25" rx="9" ry="12.5" transform="rotate(22 54.5 25)" fill="url(#ws-grad)" />
+  <!-- Almohadilla plantar principal de felino/oso hasta el borde inferior (y=64) con nervadura de hoja de conservación -->
+  <path
+    d="M32 25.5C21.5 25.5 15.5 34.5 11.5 43C7.2 52 12.5 64 22.5 64C26.5 64 29.2 61.8 32 61.8C34.8 61.8 37.5 64 41.5 64C51.5 64 56.8 52 52.5 43C48.5 34.5 42.5 25.5 32 25.5Z"
+    fill="url(#ws-grad)"
+  />
+  <!-- Nervadura negativa de hoja silvestre en el centro para contraste nítido en pestañas claras y oscuras -->
+  <path
+    d="M32 33V56M32 42L25 36.5M32 47.5L39.5 41.5"
+    stroke="#022c22"
+    stroke-width="3.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

@@ -285,7 +285,7 @@ export default function App() {
               }} 
               className="text-lg font-bold tracking-tight text-slate-900 dark:text-white whitespace-nowrap flex items-center gap-2 hover:opacity-90 transition-opacity"
             >
-              <span className="w-2.5 h-2.5 bg-emerald-600 rounded-full animate-pulse"></span>
+              <img src="/favicon.svg" alt="" className="w-6 h-6 shrink-0" />
               <span className="font-extrabold tracking-tight">WildSanctuaries</span>
             </button>
             <span className="hidden md:inline-block text-[11px] font-mono text-slate-400 dark:text-slate-500 border-l border-slate-200 dark:border-slate-800 pl-3">
