@@ -1,0 +1,39 @@
+name: Auto-Actualización Autónoma de Santuarios (Cada 3 Días)
+
+on:
+  schedule:
+    # Se ejecuta automáticamente cada 3 días a las 06:00 UTC
+    - cron: '0 6 */3 * *'
+  workflow_dispatch: # Permite también ejecutarlo manualmente con un clic si se desea
+
+permissions:
+  contents: write
+
+jobs:
+  auto-update-sanctuaries:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Ejecutar motor de actualización de misiones, calendario y telemetría
+        run: node scripts/auto-update-data.mjs
+
+      - name: Guardar cambios y activar redespliegue automático en Vercel
+        run: |
+          git config --local user.email "conservation-bot@wildsanctuaries.org"
+          git config --local user.name "WildSanctuaries Autonomous Engine"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No hay cambios pendientes."
+          else
+            git commit -m "chore(auto-sync): actualización automática de misiones, calendario y telemetría ($(date -u +'%Y-%m-%d'))"
+            git push
+          fi

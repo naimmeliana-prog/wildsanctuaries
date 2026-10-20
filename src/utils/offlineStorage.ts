@@ -41,10 +41,34 @@ export function saveStoredUser(user: UserProfile): void {
   }
 }
 
+const THREE_DAYS_MS = 3 * 24 * 60 * 60 * 1000;
+const BASE_EPOCH_MS = Date.UTC(2026, 9, 20);
+
+function getCurrentThreeDayCycle(): number {
+  return Math.max(0, Math.floor((Date.now() - BASE_EPOCH_MS) / THREE_DAYS_MS));
+}
+
+function getDynamicDateOffset(daysAhead: number): string {
+  const cycleAnchor = BASE_EPOCH_MS + getCurrentThreeDayCycle() * THREE_DAYS_MS;
+  const target = new Date(cycleAnchor + daysAhead * 24 * 60 * 60 * 1000);
+  return target.toISOString().slice(0, 10);
+}
+
+function getDynamicTimestampOffset(hoursAgo: number): string {
+  const cycleAnchor = BASE_EPOCH_MS + getCurrentThreeDayCycle() * THREE_DAYS_MS;
+  const target = new Date(cycleAnchor - hoursAgo * 3600 * 1000);
+  return target.toISOString().replace('T', ' ').slice(0, 16);
+}
+
 export function getStoredIncidents(): FieldIncident[] {
   try {
-    const data = localStorage.getItem(INCIDENTS_KEY);
-    return data ? JSON.parse(data) : mockIncidents;
+    const cycle = getCurrentThreeDayCycle();
+    const data = localStorage.getItem(`${INCIDENTS_KEY}_c${cycle}`);
+    if (data) return JSON.parse(data);
+    return mockIncidents.map((inc, idx) => ({
+      ...inc,
+      timestamp: getDynamicTimestampOffset(idx * 7 + 2)
+    }));
   } catch {
     return mockIncidents;
   }
@@ -61,7 +85,8 @@ export function saveIncident(newIncident: FieldIncident): { incident: FieldIncid
 
   const updated = [incidentToSave, ...current];
   try {
-    localStorage.setItem(INCIDENTS_KEY, JSON.stringify(updated));
+    const cycle = getCurrentThreeDayCycle();
+    localStorage.setItem(`${INCIDENTS_KEY}_c${cycle}`, JSON.stringify(updated));
   } catch (e) {
     console.error('Failed to save incident locally', e);
   }
@@ -81,7 +106,8 @@ export function syncPendingIncidents(): number {
   });
 
   if (count > 0) {
-    localStorage.setItem(INCIDENTS_KEY, JSON.stringify(updated));
+    const cycle = getCurrentThreeDayCycle();
+    localStorage.setItem(`${INCIDENTS_KEY}_c${cycle}`, JSON.stringify(updated));
   }
   return count;
 }
@@ -104,8 +130,13 @@ export function saveReview(review: VolunteerReview): VolunteerReview[] {
 
 export function getStoredTasks(): VolunteerTask[] {
   try {
-    const data = localStorage.getItem(TASKS_KEY);
-    return data ? JSON.parse(data) : mockTasks;
+    const cycle = getCurrentThreeDayCycle();
+    const data = localStorage.getItem(`${TASKS_KEY}_c${cycle}`);
+    if (data) return JSON.parse(data);
+    return mockTasks.map((t, idx) => ({
+      ...t,
+      date: getDynamicDateOffset((idx % 6) + 1)
+    }));
   } catch {
     return mockTasks;
   }
@@ -131,14 +162,20 @@ export function updateTaskAssignment(taskId: string, volunteerName: string): Vol
     }
     return task;
   });
-  localStorage.setItem(TASKS_KEY, JSON.stringify(updated));
+  const cycle = getCurrentThreeDayCycle();
+  localStorage.setItem(`${TASKS_KEY}_c${cycle}`, JSON.stringify(updated));
   return updated;
 }
 
 export function getStoredActivities(): GroupActivity[] {
   try {
-    const data = localStorage.getItem(ACTIVITIES_KEY);
-    return data ? JSON.parse(data) : mockGroupActivities;
+    const cycle = getCurrentThreeDayCycle();
+    const data = localStorage.getItem(`${ACTIVITIES_KEY}_c${cycle}`);
+    if (data) return JSON.parse(data);
+    return mockGroupActivities.map((act, idx) => ({
+      ...act,
+      date: getDynamicDateOffset(idx * 3 + 2)
+    }));
   } catch {
     return mockGroupActivities;
   }
@@ -159,14 +196,19 @@ export function toggleActivityEnrollment(activityId: string, volunteerName: stri
     }
     return act;
   });
-  localStorage.setItem(ACTIVITIES_KEY, JSON.stringify(updated));
+  const cycle = getCurrentThreeDayCycle();
+  localStorage.setItem(`${ACTIVITIES_KEY}_c${cycle}`, JSON.stringify(updated));
   return updated;
 }
 
 export function getStoredStats(): EnvironmentalStats {
   try {
-    const data = localStorage.getItem(STATS_KEY);
-    return data ? JSON.parse(data) : mockEnvironmentalStats;
+    const cycle = getCurrentThreeDayCycle();
+    return {
+      ...mockEnvironmentalStats,
+      animalsRewildedTotal: mockEnvironmentalStats.animalsRewildedTotal + cycle * 2,
+      poachingTrapsRemoved: mockEnvironmentalStats.poachingTrapsRemoved + cycle * 11
+    };
   } catch {
     return mockEnvironmentalStats;
   }
